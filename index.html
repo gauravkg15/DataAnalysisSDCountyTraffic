@@ -18,49 +18,59 @@
             The Center For Human Dynamics in the Mobile Age
           </a>
         </div>
-          <span class="navbar-text">
-            <a class="navbar-link" style="color:black" href="https://geography.sdsu.edu">SDSU GIS</a>
-          </span>
-        </div>
+        <span class="navbar-text">
+          <a class="navbar-link" style="color:black" href="https://geography.sdsu.edu">SDSU GIS</a>
+        </span>
+      </div>
     </nav>
 
-      <div id="vidBackground">
-          <video autoplay loop muted plays-inline preload="true" poster="HDMA_Logo.png" id="background">
-            <source src="coronadoBridge.mp4" type="video/mp4">
-          </video>
-            <div class="container" id="titleElements">
-              <h1 class="display-1 text-center font-weight:100" style="color:white">
-                San Diego County Traffic: Data Analysis
-              </h1>
-              <h2 id="subtitle" class="display-4 text-center font-weight:100" style="color:white">
-                Geog-594 Final Project
-              </h2>
-            </div>
-      </div>
-
-      <div class="container-fluid">
-        <h1 class="display-4 text-center font-weight:100" style="color:black; padding-top:25px; padding-bottom:10px;">
-          Debrief
+    <div id="vidBackground">
+      <video autoplay loop muted plays-inline preload="true" poster="HDMA_Logo.png" id="background">
+        <source src="coronadoBridge.mp4" type="video/mp4">
+      </video>
+      <div class="container" id="titleElements">
+        <h1 class="display-1 text-center font-weight:100" style="color:white">
+          San Diego County Traffic: Data Analysis
         </h1>
-
+        <h2 id="subtitle" class="display-4 text-center font-weight:100" style="color:white">
+          Geog-594 Final Project
+        </h2>
       </div>
+    </div>
 
-      <div class="container-fluid">
-        <h1 class="display-4 text-center font-weight:100" style="color:black; padding-top:25px; padding-bottom:10px;">
-          CartoMap Visualization
-        </h1>
-        <iframe width="100%" height="1000" frameborder="0" src="https://phantomt1412.carto.com/builder/ec99ea3b-888a-46fd-821a-e0902f4023a3/embed"
-          allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+    <div class="container-fluid">
+      <h1 class="display-2 text-center font-weight:100" style="color:black; padding-top:100px; padding-bottom:20px">
+        Video Summary
+      </h1>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="640" height="360" src="https://www.youtube.com/embed/2StbLLvdx6I"
+          gesture="media" allow="encrypted-media" allowfullscreen>
         </iframe>
       </div>
+    </div>
 
-      <div class="container">
-        <h1 class="display-4 text-center font-weight:100" style="color:black; padding-top:25px; padding-bottom:10px;">
-          Twitter Data: Frequent
+    <div class="container-fluid">
+      <h1 class="display-2 text-center font-weight:100" style="color:black; padding-top:100px; padding-bottom:20px">
+        CartoMap Visualization
+      </h1>
+      <iframe width="100%" height="1000" frameborder="0" src="https://phantomt1412.carto.com/builder/ec99ea3b-888a-46fd-821a-e0902f4023a3/embed"
+          allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <h1 class="display-2 text-center font-weight:100" style="color:black; padding-top:100px; padding-bottom:20px;">
+          Twitter Wordcloud
         </h1>
-        <img src="wordcloud.png" class="img-fluid" alt="Responsive image"></img>
-      </div> <!-- /container -->
-
+        <h2 class="display-4 text-center font-weight:100" style="color:black">
+          Frequent Keywords in Tweets from San Diego County
+        </h2>
+      </div>
+      <div class="text-center">
+        <img src="wordcloud.png" class="img-fluid" alt="Responsive image" style="max-width: 100%; height: 750px;"></img>
+      </div>
+    </div> <!-- /container -->
 
 
 
@@ -68,5 +78,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
   </body>
+
 </html>
